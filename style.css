@@ -34,6 +34,16 @@ body{
         
         
 }
+.link a{
+    text-decoration: none;
+}
+.link:hover{
+    background-color: aliceblue;
+    
+}
+.article:hover{
+  color: fuchsia
+}
 .menu{
     position: absolute;
     
