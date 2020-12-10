@@ -1,65 +1,54 @@
-body{
-    padding-top: 800px;
-        
-        
+body
+{
+    text-align: center;
 }
-#profile {
-    width: 175px;
-    border-radius: 50%
-}
-
 #welcome {
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
+    color: #FFFFFF;
     bottom: 0;
-    height: 800px;
-    width: 100%;
+    background: linear-gradient(#60ebeb 0%, #27ae60 100%);
     display: table;
-    background: linear-gradient(#ffff00, #00fffb, #ff00aa,#ff0008);
-    overflow: hidden
+    width: 100%;
+    height: 100%;
+    z-index: 9;
+}
+#bio {
+    font-family: 'Cinzel Decorative', cursive;
+    padding: 50px;
+    text-align: center;
+}
+h1 {
+    font-size: 40px;
+    font-family: sans-serif;
+    font-weight: 300;
 }
 
-#something {
-    display: table-cell;
-    vertical-align: middle
+.line {
+    height: 6px;
+    background-color: #000;
+    width: 70px;
+    margin: 8px auto;
 }
-.link{
-    display:inline;
-    padding-left: 10px;
-    padding-right: 10px;
-    font-size: 20px;
-    text-transform: uppercase;
-        
-        
-}
-.link a{
-    text-decoration: none;
-}
-.link:hover{
-    background-color: aliceblue;
-    
-}
-.article:hover{
-  color: fuchsia
-}
-.menu{
-    position: fixed;
-    
-   top: 0;
-   margin-top: 0;
-    background-color: aliceblue;
+#contact iframe
+{
     width: 100%;
-    
-    
-    z-index: 10;
 }
-h2{
-    font-family: 'Dancing Script', cursive;
+.contact_1 h3
+{
+    display: inline;
 }
-.contact{
-    background-color: darkgreen;
-    color: white
-        
+.contact_1 a
+{
+    text-shadow: none;
+}
+
+
+#videos iframe
+{
+    width: 80%;
+}
+
+
+input
+{
+    background: grey;
 }
